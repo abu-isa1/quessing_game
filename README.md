@@ -1,46 +1,55 @@
 # Number Guessing Game
 
-A simple Python terminal game where the player tries to guess a randomly generated number between 1 and 100.
+A Python command-line game where a player tries to guess a randomly generated number between 1 and 100.
 
 ## Features
 
-- Generates a random number between 1 and 100.
-- Gives the player up to 7 attempts.
-- Provides hints when a guess is too high or too low.
-- Shows the number of attempts used when the player wins.
-- Allows the player to restart after winning.
-- Allows the player to type `quit` to exit the game.
+- Random number generation using Python's `random` module
+- Up to seven guessing attempts
+- Feedback indicating whether a guess is too high or too low
+- Attempt tracking
+- Option to restart after winning
+- Exit using the `quit` command
 
 ## How to Run
 
-1. Install Python 3.
-2. Clone this repository:
+**Requirements:** Python 3
 
-   ```bash
-   git clone https://github.com/abu-isa1/quessing_game.git
-   ```
+Clone the repository:
 
-3. Open the repository folder in your terminal.
-4. Run the game:
+```bash
+git clone https://github.com/abu-isa1/quessing_game.git
+cd quessing_game
+```
 
-   ```bash
-   python3 filename.py
-   ```
+Run the game:
 
-   Replace `filename.py` with the actual name of your Python file.
+```bash
+python3 demo12.py
+```
+
+## Technical Implementation
+
+The game uses loops, conditional statements, user input, random number generation, and counters to manage the guessing process.
+
+## Current Limitations
+
+Input validation, restart logic, and hiding the secret number need improvement.
+
+## Next Improvements
+
+- Hide the secret number from the player
+- Validate input before converting it to an integer
+- Reset the game correctly when restarting
+- Stop the game when the player wins or runs out of attempts
+- Add automated tests
 
 ## Technologies
 
 - Python 3
 - `random` module
 
-## What I Learned
-
-- Generating random numbers.
-- Using `while` loops and conditional statements.
-- Getting input from users.
-- Tracking attempts and controlling game flow.
-
 ## About
 
-This project is part of my journey to improve my Python programming and problem-solving skills through practical projects.
+This project demonstrates my ongoing work in Python programming and interactive application logic.
+
